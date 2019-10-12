@@ -1,6 +1,6 @@
-package event.impl;
+package simple.event.impl;
 
-import event.Event;
+import simple.event.Event;
 
 public class EventImpl1 implements Event {
 

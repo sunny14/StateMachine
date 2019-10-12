@@ -1,6 +1,6 @@
-package state;
+package simple.state;
 
-import state.impl.Machine;
+import simple.state.impl.Machine;
 
 public interface State {
 

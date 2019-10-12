@@ -1,13 +1,13 @@
-import event.impl.EventImpl1;
-import event.impl.EventImpl2;
+import simple.event.impl.EventImpl1;
+import simple.event.impl.EventImpl2;
 import org.junit.Test;
-import state.impl.StateMachine1;
-import state.impl.Machine;
-import state.impl.StateMachine2;
-import state.impl.StateMachine3;
+import simple.state.impl.StateMachine1;
+import simple.state.impl.Machine;
+import simple.state.impl.StateMachine2;
+import simple.state.impl.StateMachine3;
 
 
-public class Test1 {
+public class SimpleImplTest {
 
     private final String initialiState = StateMachine1.class.getName();
     private final String intermediateState = StateMachine2.class.getName();

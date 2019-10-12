@@ -1,7 +1,7 @@
-package state.impl;
+package simple.state.impl;
 
-import event.Event;
-import state.State;
+import simple.event.Event;
+import simple.state.State;
 
 public class Machine {
 
@@ -29,7 +29,7 @@ public class Machine {
                 sameEventsCounter = NOT_AVAILABLE;
             }
         }
-        else {  //update new event type
+        else {  //update new simple.event type
 
             sameEventsCounter = 0;
         }

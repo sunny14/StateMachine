@@ -1,6 +1,6 @@
-package state.impl;
+package simple.state.impl;
 
-import state.State;
+import simple.state.State;
 
 public class StateMachine3 implements State {
 
@@ -11,6 +11,6 @@ public class StateMachine3 implements State {
 
     @Override
     public void printStatus() {
-        System.out.println("this is a final state, nothing is going to happen");
+        System.out.println("this is a final simple.state, nothing is going to happen");
     }
 }

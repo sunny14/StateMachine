@@ -1,6 +1,6 @@
-package state.impl;
+package simple.state.impl;
 
-import state.State;
+import simple.state.State;
 
 public class StateMachine1 implements State {
     @Override
