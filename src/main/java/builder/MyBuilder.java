@@ -53,7 +53,7 @@ public class MyBuilder {
                 .and()
                 .withExternal().source(States.E1_1).target(States.INIT).event(Events.E2)
                 .and()
-                .withExternal().source(States.E1_2).target(States.FINAL).event(Events.E1)
+                .withExternal().source(States.E1_2).target(States.FINAL).event(Events.E1).action(logAction())
                 .and()
                 .withExternal().source(States.E1_2).target(States.INIT).event(Events.E2)
                 .and()
