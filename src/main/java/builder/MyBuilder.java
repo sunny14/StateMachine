@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class MyBuilder {
 
     public static void main(String[] args) throws Exception {
-        StateMachine<States, Events> machine = getStateMachine();
+        StateMachine<States, Events> machine = createStateMachine();
         machine.start();
 
         System.out.println("On the start: "+machine.getState().getId());
@@ -36,7 +36,7 @@ public class MyBuilder {
         };
     }
 
-    public static StateMachine<States, Events> getStateMachine() throws Exception {
+    public static StateMachine<States, Events> createStateMachine() throws Exception {
         StateMachineBuilder.Builder<States, Events> builder
                 = StateMachineBuilder.builder();
 

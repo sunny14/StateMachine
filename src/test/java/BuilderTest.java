@@ -5,7 +5,7 @@ import org.springframework.statemachine.StateMachine;
 
 public class BuilderTest {
 
-    private StateMachine<MyBuilder.States, MyBuilder.Events> stateMachine = MyBuilder.getStateMachine();
+    private StateMachine<MyBuilder.States, MyBuilder.Events> stateMachine = MyBuilder.createStateMachine();
 
     public BuilderTest() throws Exception {
     }
