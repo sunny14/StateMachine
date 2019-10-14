@@ -1,0 +1,6 @@
+This project implements a state machine.
+
+Two state machine implementations can be found here:
+
+1. The Naive implementation - 'simple' package
+2. Implementation with Spring state machine - 'spring' package

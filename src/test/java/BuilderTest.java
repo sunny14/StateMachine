@@ -1,4 +1,4 @@
-import builder.MyBuilder;
+import spring.builder.MyBuilder;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.statemachine.StateMachine;

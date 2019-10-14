@@ -1,10 +1,7 @@
-import builder.FilePersister;
-import builder.MyBuilder;
+import spring.builder.FilePersister;
+import spring.builder.MyBuilder;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.statemachine.StateMachine;
-import org.springframework.statemachine.config.StateMachineFactory;
 import org.springframework.statemachine.persist.DefaultStateMachinePersister;
 import org.springframework.statemachine.persist.StateMachinePersister;
 import java.util.UUID;

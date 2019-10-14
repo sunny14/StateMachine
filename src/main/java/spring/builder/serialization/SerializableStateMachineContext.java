@@ -1,4 +1,4 @@
-package builder.serialization;
+package spring.builder.serialization;
 
 import org.springframework.statemachine.ExtendedState;
 import org.springframework.statemachine.StateMachineContext;

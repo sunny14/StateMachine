@@ -1,6 +1,6 @@
-package builder;
+package spring.builder;
 
-import builder.serialization.SerializableStateMachineContext;
+import spring.builder.serialization.SerializableStateMachineContext;
 import org.springframework.statemachine.StateMachineContext;
 import org.springframework.statemachine.StateMachinePersist;
 

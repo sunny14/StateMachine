@@ -1,4 +1,4 @@
-package builder;
+package spring.builder;
 
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.StateMachine;
